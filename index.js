@@ -1,5 +1,7 @@
-import { topMarkerPosition, isInViewPortTopAddClass } from './topViewPortHelpers/index';
-import { isInViewPortBottomAddClass, bottomMarkerPosition } from './bottomViewPortHelpers/index';
+import topMarkerPosition from './topViewPortHelpers/index';
+import isInViewPortTopAddClass  from './topViewPortHelpers/index';
+import bottomMarkerPosition from './bottomViewPortHelpers/index';
+import isInViewPortBottomAddClass from './bottomViewPortHelpers/index';
 
 module.exports.topMarkerPosition =  topOffset => {
   topMarkerPosition(topOffset)

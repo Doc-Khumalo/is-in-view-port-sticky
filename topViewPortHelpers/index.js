@@ -1,4 +1,4 @@
-export function isInViewPortTopAddClass(topOffset, scrollOriginMarker, className) {
+export default function isInViewPortTopAddClass(topOffset, scrollOriginMarker, className) {
   /*
   Custom Helper that accepts 3 arguments to check the position of the marker. The helper adds or removes a custom
    class to place your targeted element to the top of the page
@@ -19,7 +19,7 @@ export function isInViewPortTopAddClass(topOffset, scrollOriginMarker, className
   }
 }
 
-export function topMarkerPosition(topOffset) {
+export default function topMarkerPosition(topOffset) {
 
   /*
   Custom helper that returns the position of marker in relation to the viewport's top offset.

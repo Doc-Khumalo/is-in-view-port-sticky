@@ -1,4 +1,4 @@
-export function isInViewPortBottomAddClass(bottomOffset, scrollOriginMarker, className) {
+export default function isInViewPortBottomAddClass(bottomOffset, scrollOriginMarker, className) {
   /*
   Custom Helper that accepts 3 arguments to check the position of the marker. The helper adds or removes a custom
    class to place your targeted element to the bottom of the page.
@@ -19,7 +19,7 @@ export function isInViewPortBottomAddClass(bottomOffset, scrollOriginMarker, cla
   }
 }
 
-export function bottomMarkerPosition(bottomOffset) {
+export default function bottomMarkerPosition(bottomOffset) {
 
   /*
   Custom helper that returns the position of marker in relation to the viewport's bottom offset.
