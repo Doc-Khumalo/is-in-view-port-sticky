@@ -12,8 +12,8 @@ let exports = module.exports={};
 //
 // module.exports.isInViewPortBottomAddClass = isInViewPortBottomAddClass;
 
-exports.isInViewPortTop = topOffset => isInViewPortTop(topOffset);
-exports.isInViewPortTopBottom = topOffset => isInViewPortTopBottom(topOffset);
+exports.testTop = topOffset => isInViewPortTop(topOffset);
+exports.TestBottom = topOffset => isInViewPortTopBottom(topOffset);
 
 // if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
 
