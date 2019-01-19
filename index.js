@@ -5,12 +5,14 @@ import isInViewPortBottomAddClass from './bottomViewPortHelpers/index';
 
 // module.export.topMarkerPosition = topMarkerPosition;
 
-module.exports.bottomMarkerPosition = bottomMarkerPosition;
+// module.exports.bottomMarkerPosition = bottomMarkerPosition;
+//
+// module.exports.isInViewPortTopAddClass = isInViewPortTopAddClass;
+//
+// module.exports.isInViewPortBottomAddClass = isInViewPortBottomAddClass;
 
-module.exports.isInViewPortTopAddClass = isInViewPortTopAddClass;
-
-module.exports.isInViewPortBottomAddClass = isInViewPortBottomAddClass;
-
-topMarkerPosition.exports = topOffset => topMarkerPositionTest(topOffset);
+module.exports = topOffset => {
+  return topMarkerPositionTest(topOffset);
+};
   // if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
 
