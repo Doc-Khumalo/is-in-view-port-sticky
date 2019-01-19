@@ -19,7 +19,7 @@ export default function isInViewPortTopAddClass(topOffset, scrollOriginMarker, c
   }
 }
 
-export default function topMarkerPosition(topOffset) {
+export default function topMarkerPositionTest(topOffset) {
 
   /*
   Custom helper that returns the position of marker in relation to the viewport's top offset.
