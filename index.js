@@ -11,8 +11,9 @@ import isInViewPortBottomAddClass from './bottomViewPortHelpers/index';
 //
 // module.exports.isInViewPortBottomAddClass = isInViewPortBottomAddClass;
 
-module.exports = topOffset => {
-  return topMarkerPositionTest(topOffset);
+module.exports = function isInViewPortTop(topOffset) {
+  return topMarkerPositionTest(topOffset)
 };
-  // if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
+
+// if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
 
