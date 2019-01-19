@@ -11,7 +11,6 @@ module.exports.isInViewPortTopAddClass = isInViewPortTopAddClass;
 
 module.exports.isInViewPortBottomAddClass = isInViewPortBottomAddClass;
 
-module.exports = function topMarkerPosition(data) {
+topMarkerPosition.exports = topOffset => topMarkerPositionTest(topOffset);
   // if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
-  return topMarkerPositionTest(data);
-};
+
