@@ -1,4 +1,4 @@
-export function isInViewPortBottom(bottomOffset) {
+export default function isInViewPortBottom(bottomOffset) {
 
   /*
   Custom helper that returns the position of marker in relation to the viewport's bottom offset.
