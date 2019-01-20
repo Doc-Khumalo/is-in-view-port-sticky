@@ -1,6 +1,5 @@
-let exports = module.exports = {};
 
-exports.StickyTop = (a, b) => a + b;
+module.exports = StickyTop = (a, b) => a + b;
 
 /*module.export.topMarkerPosition = topMarkerPosition;
 
