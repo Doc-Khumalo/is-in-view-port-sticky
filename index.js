@@ -1,4 +1,4 @@
-import custom from './ViewPortHelpers/isInViewPortTop';
+const custom = require('./ViewPortHelpers/isInViewPortTop');
 
 module.exports = function StickyTop(topOffset) { return custom.test(topOffset)};
 
