@@ -1,6 +1,4 @@
-module.exports = function StickyTop(a, b) {
-  return a + b
-};
+module.exports = (message) => message.toUpperCase();
 
 /*module.export.topMarkerPosition = topMarkerPosition;
 
