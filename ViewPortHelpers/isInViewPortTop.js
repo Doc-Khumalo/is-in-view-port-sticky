@@ -1,5 +1,5 @@
-module.exports = () => {
-  this.test = topOffset => {
+module.exports = {
+  test: topOffset => {
 
     /*
     Custom helper that returns the position of marker in relation to the viewport's top offset.
