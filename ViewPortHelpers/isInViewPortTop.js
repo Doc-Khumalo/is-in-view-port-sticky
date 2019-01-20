@@ -1,4 +1,4 @@
-module.exports = test = topOffset => {
+const test = topOffset => {
 
   /*
   Custom helper that returns the position of marker in relation to the viewport's top offset.
@@ -8,4 +8,6 @@ module.exports = test = topOffset => {
    return topOffset.getBoundingClientRect().top + window.pageXOffset ||
     document.documentElement.scrollTop || document.body.scrollTop
   }
-}
+};
+
+export default test;
