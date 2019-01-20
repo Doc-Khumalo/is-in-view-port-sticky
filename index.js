@@ -1,4 +1,6 @@
-module.exports = (message) => message.toUpperCase();
+let exports = module.exports = {};
+
+exports.StickyTop = (a, b) => a + b;
 
 /*module.export.topMarkerPosition = topMarkerPosition;
 
