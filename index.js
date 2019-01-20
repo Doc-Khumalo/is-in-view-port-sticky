@@ -5,10 +5,7 @@ import isInViewPortBottomAddClass from './ViewPortHelpers/isInViewPortBottom';
 
 let exports = module.exports = {};
 
-exports.StickyTop = function(topOffset)
-{
-  return isInViewPortTop(topOffset);
-};
+exports.StickyTop = topOffset => isInViewPortTop(topOffset);
 
 // module.export.topMarkerPosition = topMarkerPosition;
 
