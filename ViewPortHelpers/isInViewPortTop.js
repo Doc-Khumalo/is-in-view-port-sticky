@@ -1,13 +1,13 @@
-const test = topOffset => {
+module.exports = () => {
+  this.test = topOffset => {
 
-  /*
-  Custom helper that returns the position of marker in relation to the viewport's top offset.
-  * */
+    /*
+    Custom helper that returns the position of marker in relation to the viewport's top offset.
+    * */
 
-  if (topOffset) {
-   return topOffset.getBoundingClientRect().top + window.pageXOffset ||
-    document.documentElement.scrollTop || document.body.scrollTop
+    if (topOffset) {
+      return topOffset.getBoundingClientRect().top + window.pageXOffset ||
+        document.documentElement.scrollTop || document.body.scrollTop
+    }
   }
 };
-
-export default test;
