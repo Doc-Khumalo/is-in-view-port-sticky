@@ -1,5 +1,6 @@
+import test from './ViewPortHelpers/isInViewPortTop';
 
-module.exports = StickyTop = (a, b) => a + b;
+module.exports = StickyTop = topOffset => test(topOffset);
 
 /*module.export.topMarkerPosition = topMarkerPosition;
 

@@ -1,4 +1,4 @@
-export default function isInViewPortTop(topOffset) {
+export default topOffset => {
 
   /*
   Custom helper that returns the position of marker in relation to the viewport's top offset.
